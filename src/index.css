@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+/* Custom styles */
+:root {
+  font-family: system-ui, sans-serif;
+}
+
+/* Ensure dark mode applies to entire document */
+.dark {
+  color-scheme: dark;
+}
+
+/* Custom button styles */
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-gray-800 text-white hover:bg-gray-900;
+}
+
+/* Smooth transitions for dark mode */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Remove old section class if it exists */

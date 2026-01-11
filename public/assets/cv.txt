@@ -1,0 +1,14 @@
+THIS IS A PLACEHOLDER CV FILE
+
+Replace this file with your actual CV (PDF format recommended).
+
+Instructions:
+1. Save your CV as a PDF file
+2. Name it "cv.pdf" 
+3. Place it in the public/assets/ folder
+4. The CV download button will work automatically
+
+Or you can:
+1. Upload your CV to Google Drive or Dropbox
+2. Get a shareable link
+3. Update the cvUrl in Home.jsx and Contact.jsx to point to your online CV
